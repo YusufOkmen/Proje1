@@ -1,0 +1,6 @@
+isim = input("Adınızı giriniz. = ")
+uyku_saati = int(input("Günde ortalama kaç saat uyuyorsunuz? = "))
+uyku_orani =  100 / (24 / uyku_saati)
+calisma_saati = int(input("Günde ortalama kaç saat ders çalışıyorsunuz? = "))
+calisma_orani = 100 / (24 / calisma_saati)
+print(isim,"Günün yüzde",uyku_orani,"i kadar uyuyor ve Günün yüzde",calisma_orani,"i kadar ders çalışıyor.")
